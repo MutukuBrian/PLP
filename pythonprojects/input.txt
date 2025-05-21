@@ -1,0 +1,5 @@
+- Reads the contents of input.txt using open().
+- Counts words by splitting the text and measuring the length.
+- Converts all text to uppercase using .upper().
+- Writes the processed text and word count into output.txt.
+- Prints a success message once the new file is created.

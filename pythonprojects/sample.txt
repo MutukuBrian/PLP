@@ -1,0 +1,4 @@
+Use 'with' for file handling: Auto-close files, preventing potential leaks.
+Check file existence before reading/writing, to avoid crashes.
+Handle specific exceptions over general ones (e.g., FileNotFoundError instead of Exception).
+Document error messages clearly for easier debugging and user support.
