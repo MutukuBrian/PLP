@@ -1,12 +1,9 @@
-# Defining a class
-class Car:
-    color = "red"  # Attribute
+import pandas as pd
 
-    # Method
-    def drive(self):
-        print("The car is driving 🚗")
+# Creating DataFrame from a dictionary
+data = {'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 35],
+        'City': ['New York', 'Los Angeles', 'Chicago']}
 
-# Creating an object
-my_car = Car()
-print(my_car.color)
-my_car.drive()
+df = pd.DataFrame(data)
+print(df)
