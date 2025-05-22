@@ -6,7 +6,7 @@ import seaborn as sns
 
 
 
-# Sample data to work with
+# Sample data 
 data = {
     "Date": ["2025-03-01", "2025-03-01", "2025-03-02", "2025-03-02", "2025-03-03", "2025-03-03", "2025-03-04", "2025-03-04"],
     "Product": ["Laptop", "Mouse", "Laptop", "Keyboard", "Monitor", "Mouse", "Laptop", "Keyboard"],
