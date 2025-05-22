@@ -1,6 +1,12 @@
-# Example of a nested loop
-for i in range(1, 4):  # Outer loop
-    for j in range(1, 4):  # Inner loop
-        print(f"Outer loop: {i}, Inner loop: {j}")
+# Defining a class
+class Car:
+    color = "red"  # Attribute
 
-        
+    # Method
+    def drive(self):
+        print("The car is driving 🚗")
+
+# Creating an object
+my_car = Car()
+print(my_car.color)
+my_car.drive()
